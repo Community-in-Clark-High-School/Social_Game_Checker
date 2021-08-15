@@ -1,0 +1,3 @@
+[submodule "bignumber.js"]
+	path = bignumber.js
+	url = https://github.com/MikeMcl/bignumber.js
