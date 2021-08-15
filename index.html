@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ソシャゲーチェッカー</title>
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <script src='./bignumber.js/bignumber.js'></script>
+   <script src="./main.js"></script>
+</head>
+<body>
+    <p><h1>ソシャゲーチェッカー</h1></p>
+    <p>
+        引いた回数:
+        <input type="number"  id="n" value="2000"/>
+    </p>
+    <p>
+        出た回数:
+        <input type="number" id="k" value="1"/>
+    </p>
+    <p>
+        確率:
+        <input type="number" id="p" value="0.001"/>
+    </p>
+    <p>
+        <button class="waves-effect waves-light btn" onclick="interface_run();">計算</button>
+    </p>
+
+    <p id="PA">
+    </p>
+    <p id="AA">
+        
+    </p>
+
+    <p id="info">
+        <h3>無保証</h3>
+    </p>
+
+</body>
+</html>
